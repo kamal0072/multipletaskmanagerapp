@@ -31,13 +31,13 @@ export default function NavBar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="*">Library</NavLink>
+          <NavLink to="*" className="text-1xl text-green-400">Library</NavLink>
         </li>
         <li>
-          <NavLink to="*">Catalogue</NavLink>
+          <NavLink to="*" className={"text-1xl text-green-400"}>Catalogue</NavLink>
         </li>
         <li>
-          <NavLink to="*">Services</NavLink>
+          <NavLink to="*" className={"text-green-400"}>Services</NavLink>
         </li>
         <li>
           <NavLink to="*">Todo App</NavLink>
