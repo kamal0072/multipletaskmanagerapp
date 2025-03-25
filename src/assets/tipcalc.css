@@ -1,0 +1,86 @@
+.main{
+    width: 450px;
+    height: 400px;
+    background-color: #4caf50;
+    padding: 15px;
+}
+body {
+    background: #f2f2f2;
+    color: #333;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+    padding-left: 1px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  input[type="text"] {
+    background: transparent;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1.4rem;
+  }
+  
+.summary {
+    background: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+  }
+  
+  .summary label {
+    line-height: 0.8rem;
+  }
+  
+.split-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .split-control span {
+    display: block;
+    padding: 0 3px;
+  }
+.btn1{
+    /* height: 30px;
+    width: 30px; */
+    border : 2px solid rebeccapurple;
+    border-radius: 100%;
+    padding: 0px 17px 4px 15px;
+    margin: 20px 7px 20px -2px;
+}
+/*   
+.split-control button {
+    border-radius: 5px;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    background: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+   */
+  .result {
+    text-align: right;
+    margin-bottom: -20px;
+  }
+  
+  main {
+    width: 200px;
+    margin: 20px auto;
+  }
+.calculated-tip{
+    text-align: center;
+    margin-top: 10px;
+}
