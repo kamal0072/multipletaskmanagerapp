@@ -39,6 +39,12 @@ export default function NavBar() {
         <li>
           <NavLink to="*">Services</NavLink>
         </li>
+        <li>
+          <NavLink to="*">Todo App</NavLink>
+        </li>
+        <li>
+          <NavLink to="*">Task manaeger</NavLink>
+        </li>
       </ul>
     </>
   );
