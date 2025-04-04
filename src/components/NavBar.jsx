@@ -5,11 +5,11 @@ export default function NavBar() {
   
   return (
     <>
-      <ul className="flex justify-around gap-4 ">
+      <ul className="flex justify-around gap-4 mt-3 p-4">
         <li>
           <NavLink
             to="/"
-            className={({ isActive }) => isActive ? "text text-danger font-black" : ""}
+            className={({ isActive }) => isActive ? "text underline underline-offset-6 text-red-500 font-black" : ""}
           >
             Tip Calculator
           </NavLink>
@@ -17,7 +17,7 @@ export default function NavBar() {
         <li>
           <NavLink
             to="/contact"
-            className={({ isActive }) => isActive ? "text text-danger font-black" : ""}
+            className={({ isActive }) => isActive ? "text underline underline-offset-6 text-red-500 font-black" : ""}
           >
             Calculator
           </NavLink>
@@ -25,25 +25,16 @@ export default function NavBar() {
         <li>
           <NavLink
             to="/index"
-            className={({ isActive }) =>isActive ? "underline underline-offset-4 text-danger font-black":""}
+            className={({ isActive }) =>isActive ? "underline underline-offset-6 text-red-500 font-black":""}
           >
-            index
+            landing Page
           </NavLink>
         </li>
         <li>
-          <NavLink to="*" className="text-1xl text-green-400">Library</NavLink>
+          <NavLink to="/todo">Todo App</NavLink>
         </li>
         <li>
-          <NavLink to="*" className={"text-1xl text-green-400"}>Catalogue</NavLink>
-        </li>
-        <li>
-          <NavLink to="*" className={"text-green-400"}>Services</NavLink>
-        </li>
-        <li>
-          <NavLink to="*">Todo App</NavLink>
-        </li>
-        <li>
-          <NavLink to="*">Task manaeger</NavLink>
+          <NavLink to="/task-manaeger">Task manaeger</NavLink>
         </li>
       </ul>
     </>
