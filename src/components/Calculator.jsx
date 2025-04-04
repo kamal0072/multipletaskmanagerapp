@@ -116,6 +116,5 @@ export default function Calculator() {
       </div>
         <p className="h-20 w-100 overflow-scroll">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero saepe quas sint, quidem distinctio tenetur inventore quis sapiente est voluptatum suscipit mollitia quisquam magni reiciendis quo culpa vel voluptatem exercitationem.</p>
       </div>
-    </div>
   );
 }
