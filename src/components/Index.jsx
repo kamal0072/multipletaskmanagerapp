@@ -1,3 +1,5 @@
+import { Navbar } from "react-bootstrap";
+
 function Index() {
   return (
   <>
@@ -5,7 +7,7 @@ function Index() {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt quod deleniti quas quasi aliquam laborum nostrum pariatur voluptatem. Eos?</p>
       </div>
       <div className="bg-yellow-500">
-        <h1 className="text-2xl text-red-600">This Is Index page</h1>
+        <h1 className="text-2xl text-red-600">Landing Page</h1>
       </div>
   </>
   );

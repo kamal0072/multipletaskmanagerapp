@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes, RouterProvider, createBrowserRouter } fro
 // import Index from "./components/Index.jsx";
 // import Error from "./components/Error.jsx";
 import { lazy } from "react";
+import TaskManaeger from "./components/TaskManaeger.jsx";
 
 const Calculator = lazy(()=> import("./components/Calculator.jsx"));
 const Index  = lazy(()=> import("./components/Index.jsx").then(module =>{return {default: module.Index}}));
@@ -28,13 +29,17 @@ const router = createBrowserRouter([
                 element : <TipCalculator />,
             },
             {
-                path : "/contact",
+                path : "/calculator",
                 element : <Calculator />
             },
             {
                 path : "/index",
                 element : <Index /> 
             },
+            {
+                path : "/TaskManaeger",
+                element : <TaskManaeger />
+            }
         ]
     }
 ])

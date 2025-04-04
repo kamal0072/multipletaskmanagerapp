@@ -16,7 +16,7 @@ export default function NavBar() {
         </li>
         <li>
           <NavLink
-            to="/contact"
+            to="/calculator"
             className={({ isActive }) => isActive ? "text underline underline-offset-6 text-red-500 font-black" : ""}
           >
             Calculator
@@ -31,10 +31,14 @@ export default function NavBar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/todo">Todo App</NavLink>
+          <NavLink to="/todo"
+          className={({ isActive }) =>isActive ? "underline underline-offset-6 text-red-500 font-black":""}
+          >Todo App</NavLink>
         </li>
         <li>
-          <NavLink to="/task-manaeger">Task manaeger</NavLink>
+          <NavLink to="/TaskManaeger" 
+          className={({ isActive }) =>isActive ? "underline underline-offset-6 text-red-500 font-black":""}
+          >Task manaeger</NavLink>
         </li>
       </ul>
     </>
